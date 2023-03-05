@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "../styles/globals.css";
 
 export const metadata = {
   title: "Next.js",
@@ -12,9 +13,9 @@ export default function RootLayout({
 }) {
   const hearder = (
     <header>
-      <div>
+      <div className="text-center">
         <Link href="/">
-          <h1>Yan's Code Blog</h1>
+          <h1 className="text-3xl text-pink-500">Yan's Code Blog</h1>
         </Link>
         <p>🍓Welcome to my tech blog.💻</p>
         <br />
@@ -34,9 +35,11 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        {hearder}
-        {children}
-        {footer}
+        <div className="mx-auto  max-w-2xl">
+          {hearder}
+          {children}
+          {footer}
+        </div>
       </body>
     </html>
   );
