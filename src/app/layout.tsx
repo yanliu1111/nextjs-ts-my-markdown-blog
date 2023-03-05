@@ -13,20 +13,20 @@ export default function RootLayout({
 }) {
   const hearder = (
     <header>
-      <div className="text-center">
+      <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
         <Link href="/">
-          <h1 className="text-3xl text-pink-500">Yan's Code Blog</h1>
+          <h1 className="text-3xl text-pink-300 mb-3 font-bold">
+            Yan's Code Blog
+          </h1>
         </Link>
-        <p>🍓Welcome to my tech blog.💻</p>
-        <br />
+        <p className=" text-pink-300">🍓 Welcome to my tech blog. ☕</p>
       </div>
     </header>
   );
   const footer = (
     <footer>
-      <div>
-        <br />
-        <h3>Developed by Yan</h3>
+      <div className="bg-slate-800 p-6 mt-6 rounded-t-md">
+        <h3 className=" text-slate-300">Developed by Yan</h3>
       </div>
     </footer>
   );
@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <div className="mx-auto  max-w-2xl">
+        <div className="mx-auto max-w-6xl px-6">
           {hearder}
           {children}
           {footer}
