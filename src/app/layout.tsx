@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaGithub, FaLinkedin, FaGlobe, FaTwitter } from "react-icons/fa";
 import "../styles/globals.css";
 
 export const metadata = {
@@ -15,7 +16,7 @@ export default function RootLayout({
     <header>
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
         <Link href="/">
-          <h1 className="text-3xl text-pink-300 mb-3 font-bold">
+          <h1 className="text-2xl text-pink-300 mb-3 font-bold">
             Yan's Code Blog
           </h1>
         </Link>
@@ -24,11 +25,33 @@ export default function RootLayout({
     </header>
   );
   const footer = (
-    <footer>
-      <div className="bg-slate-800 p-6 mt-6 rounded-t-md">
-        <h3 className=" text-slate-300">Developed by Yan</h3>
+    <>
+      <div className="border-t border-slate-400 mt-12 text-center text-slate-400"></div>
+      <div className="p-5 text-center ">
+        <ul>
+          <p className="text-slate-700 font-bold text-xl pb-6 ">
+            Contact <span className="text-pink-600"> Me</span>
+          </p>
+          <div className="flex justify-between gap-6 pb-5">
+            <a href="https://github.com/yanliu1111" title="Github">
+              <FaGithub className="text-xl cursor-pointer hover:text-red-600" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yan-liu-phd-371b8562/"
+              title="LinkedIn"
+            >
+              <FaLinkedin className="text-xl cursor-pointer hover:text-blue-600" />
+            </a>
+            <a href="https://yanlovescode.me/" title="My portfolio">
+              <FaGlobe className="text-xl cursor-pointer hover:text-green-600" />
+            </a>
+            <a href="https://twitter.com/yanliu111" title="Twitter">
+              <FaTwitter className="text-xl cursor-pointer hover:text-yellow-600" />
+            </a>
+          </div>
+        </ul>
       </div>
-    </footer>
+    </>
   );
 
   return (
