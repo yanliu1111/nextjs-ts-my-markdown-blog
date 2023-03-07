@@ -11,7 +11,7 @@ export default function Head() {
       <meta property="og:url" content="https://www.yancodeblog.codes/" />
       <meta
         property="og:image"
-        content="https://yanliu1111.github.io/myBlogNextjsTs3.png"
+        content="https://yanliu1111.github.io/myBlogNextjsTs4.png"
       />
       <meta
         property="og:description"
