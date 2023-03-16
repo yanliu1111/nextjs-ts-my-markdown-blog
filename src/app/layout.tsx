@@ -29,9 +29,16 @@ export default function RootLayout({
       <div className="border-t border-slate-400 mt-12 text-center text-slate-400"></div>
       <div className="p-5 text-center ">
         <ul>
-          <p className="text-slate-700 font-bold text-xl pb-6 ">
-            Contact <span className="text-pink-600"> Me</span>
-          </p>
+          <div className="flex justify-between">
+            <div></div>
+            <p className=" text-slate-700 font-bold text-xl pb-6 ">
+              Contact <span className="text-pink-600"> Me</span>{" "}
+            </p>
+            <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fwww.yancodeblog.codes%2F">
+              <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fwww.yancodeblog.codes%2F&labelColor=%23f47373&countColor=%2337d67a" />
+            </a>
+          </div>
+
           <div className="flex justify-between gap-6 pb-5">
             <a href="https://github.com/yanliu1111" title="Github">
               <FaGithub className="text-xl cursor-pointer hover:text-red-600" />
