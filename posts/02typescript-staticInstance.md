@@ -8,7 +8,7 @@ date: "2023-03-04"
 
 > Hi 😀 I would like to share my answers and replys from InceptionU discord, I got many facilitators' help before 6 months. Normally what I did is to write down my answers and replies in my personal markdown notebook. But until I build my Code blog, I would like to share some important session from my note, it would be a good way to review my learning process and also to share my learning with who has the same question.
 
-## Where is the InceptionU 🏡?
+## About InceptionU 🏡
 
 > InceptionU is a learning experience organization based in downtown Calgary, dedicated to providing a unique approach to learning that addresses the evolving demands of the IT field. Our flagship program, Evolve Full Stack Developer, is a 6-month, full-time project-based learning environment that prepares learners with the technical and essential skills needed to excel in a full stack developer role. Through hands-on experience and expert instruction, we empower our students to thrive in the dynamic world of technology. Check out the [website](https://www.inceptionu.com/)
 
