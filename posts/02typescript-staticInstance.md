@@ -6,11 +6,11 @@ date: "2023-03-04"
 
 ## Introduction
 
-> Hi 😀 I would like to share my answers and replys from InceptionU discord, I got many facilitators' help before 6 monthons. Normally what I did is to write down my answer and reply in a markdown file in my personal markdown notebook. But until I build my Code blog, I would like to share some important moment of answer and reply, it would be a good way to review my learning process and also a good way to share my learning process with who has the same question.
+> Hi 😀 I would like to share my answers and replys from InceptionU discord, I got many facilitators' help before 6 months. Normally what I did is to write down my answers and replies in my personal markdown notebook. But until I build my Code blog, I would like to share some important session from my note, it would be a good way to review my learning process and also to share my learning with who has the same question.
 
-## who is the InceptionU?
+## Where is the InceptionU 🏡?
 
-> A learning experience organization, creating a different pathway for learning that meets the expanding and shifting demands on the future. <br>Education is at a crossroads - we need to think differently about how we prepare people for the work of the future.The InceptionU Evolve Full Stack Developer program is a full-time 6-month, project based learning environment that equips our learners with the essential and technical skills and abilities to step into a full stack developer role. Check out the [website](https://www.inceptionu.com/)
+> InceptionU is a learning experience organization based in downtown Calgary, dedicated to providing a unique approach to learning that addresses the evolving demands of the IT field. Our flagship program, Evolve Full Stack Developer, is a 6-month, full-time project-based learning environment that prepares learners with the technical and essential skills needed to excel in a full stack developer role. Through hands-on experience and expert instruction, we empower our students to thrive in the dynamic world of technology. Check out the [website](https://www.inceptionu.com/)
 
 ## Let's start
 
