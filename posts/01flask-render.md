@@ -1,6 +1,6 @@
 ---
-title: "How to delopy a backend project"
-subtitle: "Deploy a Flask project to Render"
+title: "How to delopy a backend project in Render.com"
+subtitle: "Deploy a Flask project to Render, migrate database from SQLite to Postgres"
 date: "2023-04-06"
 ---
 
@@ -16,7 +16,9 @@ date: "2023-04-06"
 - Postgres
 - Gunicorn - Python WSGI HTTP Server
 - psycopg2 - PostgreSQL database adapter for Python
-- [Render](render.com) - Deploy and host your web app
+- Render - Deploy and host your web app
+
+Check out the details about [Render](render.com)
 
 ## Transfrom database from SQLite to Postgres
 
@@ -99,4 +101,4 @@ flask shell
 4. Check the deployment status by clicking on the "Events" tab <br>
    You'll see that the "Deploy" is live once all the configuration changes are applied and the service is updated.
 
-<br>[⬆️ Back to Top](#introduction)
+[⬆️ Back to Top](#introduction)
