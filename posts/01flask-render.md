@@ -46,19 +46,39 @@ In virtual environment,
 
 ```python
 # config.py
+import os
+import re
+...
+from decouple import config
+
+BASE_DIR=os.path.dirname(os.path.realpath(__file__))
+
+uri = config("DATABASE_URL")  # or other relevant config var
+if uri.startswith("postgres://"):
+    uri = uri.replace("postgres://", "postgresql://", 1)
+...
+...
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI=uri
     SQLALCHEMY_TRACK_MODIFICATIONS=False
     DEBUG=config('DEBUG',cast=bool)
 
-uri = config("DATABASE_URL")  # or other relevant config var
-if uri.startswith("postgres://"):
-    uri = uri.replace("postgres://", "postgresql://", 1)
+config_dict={
+    'dev':DevConfig,
+    'testing':TestConfig,
+    'prodution':ProdConfig
+}
+```
 
+```python
 # runserver.py
+from api import create_app
 from api.config.config import config_dict
-
+# change the config type from dev to prodution
 app= create_app(config=config_dict['prodution'])
+
+if __name__ == '__main__':
+    app.run()
 ```
 
 ## Database Initialization
@@ -67,11 +87,12 @@ In virtual environment,
 
 ```bash
  export DATABASE_URL=postgresql://flask_rest_api_project_user:O777qqqqqqqqqqqqqqqqqqqqq@dgg-cggggggggggggggggggg-a.oregon-postgres.render.com/flask_rest_api_project
+# what means of this DATABASE_URL?
 # Network type: PostgreSQL (TCP/IP)
 # User name: flask_rest_api_project_user
 # Password: O777qqqqqqqqqqqqqqqqqqqqq
 # Hostname: dgg-cggggggggggggggggggg-a.oregon-postgres.render.com
-#port: 5432
+# port: 5432
 
 export FLASK_APP=api/
 echo $FLASK_APP
