@@ -122,4 +122,11 @@ flask shell
 4. Check the deployment status by clicking on the "Events" tab <br>
    You'll see that the "Deploy" is live once all the configuration changes are applied and the service is updated.
 
+## References
+
+1. [Developing RESTful APIs with Python and Flask](https://auth0.com/blog/developing-restful-apis-with-python-and-flask/)
+2. [Ssali Jonathan Youtube Channel](https://www.youtube.com/watch?v=OEZxEY_wdN4&list=PLEt8Tae2spYnFMndU9EM082imnnzke07J)
+3. [Deploying a Flask App to Render](https://testdriven.io/blog/flask-render-deployment/)
+4. [Render website](https://render.com/)
+
 [⬆️ Back to Top](#introduction)
