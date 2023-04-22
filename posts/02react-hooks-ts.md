@@ -1,5 +1,5 @@
 ---
-title: Learning Notes about React Hooks with TypeScript"
+title: "Learning Notes about React Hooks with TypeScript"
 subtitle: "useState, useEffect, useCallback, useMemo, useRef"
 date: "2023-03-16"
 ---
