@@ -1,5 +1,5 @@
 ---
-title: "How to delopy a backend project in Render.com"
+title: "How to deploy a backend project in Render.com"
 subtitle: "Deploy a Flask project to Render, migrate database from SQLite to Postgres"
 date: "2023-04-06"
 ---
