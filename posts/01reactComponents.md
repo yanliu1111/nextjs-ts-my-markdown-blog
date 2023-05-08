@@ -11,7 +11,10 @@ I want to share with you some tips I've learned from building React applications
 **1.SRP: Single Responsibility Principle😃**<br>
 The Single Responsibility Principle states that each React component should have only one responsibility. If a component handles multiple tasks, such as fetching data from multiple sources and displaying multiple elements, consider breaking it down into smaller, single-purpose components. By doing so, you can simplify your code, make it more modular and reusable, and also make it easier to test. For example, you could break down a complex component into multiple smaller components, each responsible for fetching and displaying data from a single source. This can help improve the overall performance and maintainability of your React application.
 
-![images](../public/images/5-1.jpg)
+<img
+style="width: 50%;"
+src="../public/images/5-1.jpg"
+alt="SRP"> </img>
 
 **2. Create Presentational Components😘**<br>
 Ideally, each React component should be a "dumb" component, which means it should have minimal or no logic at all. Generally, you should handle the fetch logic in one place, such as the parent component, and then create a child component that is only responsible for displaying the data in an unopinionated way.
