@@ -29,7 +29,7 @@ Conditional rendering is the practice of using ternary operators or if statement
 **5. Use Higher-Order Components (HOCs)😯**<br>
 React offers a powerful feature called higher order components (HOCs). These are components that take in other components and wrap them. A good example of this is a layout component that you create once, give it padding vertically and horizontally, and then pass in all the other components for each section of your website. This means that if you ever decide to change your layout, such as wanting the padding to be 4 pixels instead of 6, you only have to change it in one place instead of going through every component and redoing the whole layout. HOCs allow you to maintain a unified style throughout your application, making it a valuable tool for any React developer.
 
-![images](/images/5-3.jpg)
+![images](/images/5-03.jpg)
 
 **6. Custom Hooks👛**<br>
 Be careful, not everything needs to be abstracted into a custom hook. It's fine to have a useEffect inside a component. However, when you have complex logic that you would like to use in multiple components, it can make sense to create a hook that encapsulates the logic. If you do a good job at abstracting the logic away from the component and into the hook, it will be easy to use the same hook across multiple components wherever you need the data from the hook.
