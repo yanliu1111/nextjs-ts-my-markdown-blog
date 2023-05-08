@@ -11,17 +11,14 @@ I want to share with you some tips I've learned from building React applications
 **1.SRP: Single Responsibility Principle😃**<br>
 The Single Responsibility Principle states that each React component should have only one responsibility. If a component handles multiple tasks, such as fetching data from multiple sources and displaying multiple elements, consider breaking it down into smaller, single-purpose components. By doing so, you can simplify your code, make it more modular and reusable, and also make it easier to test. For example, you could break down a complex component into multiple smaller components, each responsible for fetching and displaying data from a single source. This can help improve the overall performance and maintainability of your React application.
 
-<img
-style="width: 50%;"
-src="../public/images/5-1.jpg"
-alt="SRP"> </img>
+![images](/images/5-1.jpg)
 
 **2. Create Presentational Components😘**<br>
 Ideally, each React component should be a "dumb" component, which means it should have minimal or no logic at all. Generally, you should handle the fetch logic in one place, such as the parent component, and then create a child component that is only responsible for displaying the data in an unopinionated way.
 
 For example, if you have a toast notification component, it should not know anything about where the data came from or how it was fetched. Instead, you can pass the title and description as props from wherever you want to display the notification. The toast notification component will then simply display whatever props you pass to it, acting as a "dumb" component. By creating these reusable, "dumb" components, you can keep your code clean, modular, and easy to maintain.
 
-![images](../public/images/5-2.jpg)
+![images](/images/5-2.jpg)
 
 **3. Don't Repeat Yourself (DRY)🥶**<br>
 Avoid code repetition in React. Repeating yourself once or twice is acceptable, but if you find yourself repeating code three or more times, consider creating reusable components or breaking your logic down into separate hooks or helper functions. However, creating reusable components from the outset may not always be the best approach. It's a balancing act between avoiding code duplication and considering reusability, especially if you only plan to use a piece of code once or twice for now.
@@ -32,7 +29,7 @@ Conditional rendering is the practice of using ternary operators or if statement
 **5. Use Higher-Order Components (HOCs)😯**<br>
 React offers a powerful feature called higher order components (HOCs). These are components that take in other components and wrap them. A good example of this is a layout component that you create once, give it padding vertically and horizontally, and then pass in all the other components for each section of your website. This means that if you ever decide to change your layout, such as wanting the padding to be 4 pixels instead of 6, you only have to change it in one place instead of going through every component and redoing the whole layout. HOCs allow you to maintain a unified style throughout your application, making it a valuable tool for any React developer.
 
-![images](../public/images/5-3.jpg)
+![images](/images/5-3.jpg)
 
 **6. Custom Hooks👛**<br>
 Be careful, not everything needs to be abstracted into a custom hook. It's fine to have a useEffect inside a component. However, when you have complex logic that you would like to use in multiple components, it can make sense to create a hook that encapsulates the logic. If you do a good job at abstracting the logic away from the component and into the hook, it will be easy to use the same hook across multiple components wherever you need the data from the hook.
