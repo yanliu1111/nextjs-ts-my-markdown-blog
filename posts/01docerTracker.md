@@ -16,7 +16,7 @@ docker rm node-app -f
 docker build -t node-app-image .
 ```
 
-But we don't want to do rebuild every time we make a change. So we can use volume to solve this problem. Three wyas to solve this problem.😀♥💡
+But we don't want to do rebuild every time we make a change. So we can use volume to solve this problem. Three ways to **solve this problem**.😀♥💡
 
 ## 💖 1. Volume - bind mount in docker
 
