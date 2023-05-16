@@ -4,7 +4,7 @@ subtitle: "Automatically restarting the node process inside the container when t
 date: "2023-05-15"
 ---
 
-## 🐳Introduction
+## Introduction
 
 **🎯Problem:** We build an image then we build a container from it, now we change our code, but the image that we create from dockerfile was run before we made these changes. So we need to rebuild the image and run a new container from it. But we can use volume or extensions install to solve this problem. I have tried three ways to solve this problem.
 
@@ -144,4 +144,4 @@ The detail work process in the creator [repo](https://github.com/caseywebdev/wat
 
 This way is good for developers don't use VS code.
 
-[⬆️ Back to Top](#🐳introduction)
+[⬆️ Back to Top](#introduction)
