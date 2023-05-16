@@ -1,6 +1,6 @@
 # Yan Code Blog, hi there 👋
 
-👸 If my [blog](www.yancodeblog.codes/) is helpful, please give me a star✨. Thank you so much!
+👸 If my [blog](http://www.yancodeblog.codes/) is helpful, please give me a star✨. Thank you so much!
 
 ## Getting Started
 
