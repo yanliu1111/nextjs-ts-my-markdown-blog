@@ -1,6 +1,6 @@
 ---
 title: "Static Instance Methods in TypeScript"
-subtitle: "Answer and Reply"
+subtitle: "QA talk in InceptionU tech group"
 date: "2023-03-04"
 ---
 
