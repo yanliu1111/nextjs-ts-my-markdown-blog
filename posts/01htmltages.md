@@ -4,9 +4,11 @@ subtitle: "5 HTML Tags: addr, bdo, kbd, samp, details"
 date: "2023-05-22"
 ---
 
-Hi 👋, I learned 5 new HTML tags this weekend. I want to share with you.😀♥💡
+**Hi 👋, I learned 5 new HTML tags this weekend. I want to share with you.** 👸📖
 
-## 1 abbr
+## 💙1 abbr
+
+`abbr `is abbreviation which allows you to specify what an acronym stands for and then it puts dots underneath when you mouse over you get the tooltip.
 
 ```html
 <!-- abbr is abriviation -->
@@ -22,9 +24,7 @@ Hi 👋, I learned 5 new HTML tags this weekend. I want to share with you.😀�
 </div>
 ```
 
-`abbr `is abbreviation which allows you to specify what an acronym stands for and then it puts dots underneath when you mouse over you get the tooltip.
-
-## 2 bdo
+## 🧡2 bdo
 
 `bdo` means bidirectional override. It is used to override the current text direction. `bdo` tag allows you to specify the direction of the text, so you can go right to leaf instead of left to right.
 
@@ -43,7 +43,7 @@ Hi 👋, I learned 5 new HTML tags this weekend. I want to share with you.😀�
 </body>
 ```
 
-## 3 kbd
+## 💜3 kbd
 
 `kbd` tag which is my fave and this one actually just denotes a key on the keyboard and it actually styles it.
 
@@ -62,7 +62,7 @@ Hi 👋, I learned 5 new HTML tags this weekend. I want to share with you.😀�
 </body>
 ```
 
-## 4 samp
+## 💛4 samp
 
 `samp` is computer output. You get the sort of mono spaced computer font here.
 
@@ -80,9 +80,9 @@ Hi 👋, I learned 5 new HTML tags this weekend. I want to share with you.😀�
 </body>
 ```
 
-## 5 details
+## 💚5 details
 
-Details tag is usually used with summary tag. It is used to show and hide the content. It is used to show the content when the user clicks on the summary tag. The summary tag let you see specify the text when it is expanded.
+`details` tag is usually used with summary tag. It is used to show and hide the content. It is used to show the content when the user clicks on the summary tag. The summary tag let you see specify the text when it is expanded.
 
 ```html
 <!-- details -->
@@ -101,4 +101,4 @@ Details tag is usually used with summary tag. It is used to show and hide the co
 </body>
 ```
 
-Hope it helps you. Happy Coding! ✨💖✨
+**Hope it helps you. Happy Coding!** ✨💖✨
