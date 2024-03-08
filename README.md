@@ -1,6 +1,6 @@
 # Yan Code Blog, hi there 👋
 
-👸 If my [blog](http://www.yancodeblog.codes/) is helpful, please give me a star✨. Thank you so much!
+👸 If my [blog](https://nextjs-ts-my-markdown-blog-h1t7o9r3h-yanliu1111.vercel.app) is helpful, please give me a star✨. Thank you so much!
 
 ## Getting Started
 
