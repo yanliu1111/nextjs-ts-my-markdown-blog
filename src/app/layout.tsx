@@ -51,7 +51,9 @@ export default function RootLayout({
             >
               <FaLinkedin className='text-xl cursor-pointer hover:text-blue-600' />
             </a>
-
+            <a href='https://yanlovescoding.me' title='My portfolio'>
+              <FaGlobe className='text-xl cursor-pointer hover:text-green-600' />
+            </a>
             <a href='https://twitter.com/yanliu111' title='Twitter'>
               <FaTwitter className='text-xl cursor-pointer hover:text-yellow-600' />
             </a>
